@@ -10,7 +10,6 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/home/header/header.component';
 import { FooterComponent } from './components/home/footer/footer.component';
-import { NavComponent } from './components/home/nav/nav.component';
 // import { RouterModule } from '@angular/router';
 // import { appRoutes } from './routings/app.routes';
 
@@ -25,8 +24,7 @@ import { NavComponent } from './components/home/nav/nav.component';
     ContactComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent,
-    NavComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
